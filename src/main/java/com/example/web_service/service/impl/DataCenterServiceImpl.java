@@ -18,7 +18,7 @@ public class DataCenterServiceImpl implements DataCenterService {
 
     @Override
     public String dataShare(String code) throws UnsupportedEncodingException {
-        System.out.println("test:"+ code);
+        System.out.println("test1:"+ code);
         return "test"+code;
     }
 }
